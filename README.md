@@ -1,6 +1,9 @@
 # Map-Plotting
 
-database name: mapdb
+add database in mySql = mapdb
+env file database name = mapdb
+
+mapplotter/config/app.php - update the timezone 'Asia/Manila'
 
 cmd
 /mapplotting/
