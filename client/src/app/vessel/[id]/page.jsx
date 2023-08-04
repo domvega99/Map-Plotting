@@ -199,6 +199,7 @@ const Vessel = () => {
                           <Popup>
                             <div>
                               <div>Vessel: {history.name}</div>
+                              <div>Type: {vessel.type}</div>
                               <div>Latitude: {location.latitude}</div>
                               <div>Longitude: {location.longitude}</div>
                               <div>{formatDate(location.formatted_created_at || location.created_at)}</div>
