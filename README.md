@@ -3,7 +3,7 @@
 database name: mapdb
 
 cmd
-/exam/mapplotting/
+/mapplotting/
 
 php artisan migrate
 php artisan serve
@@ -11,7 +11,7 @@ php artisan serve
 
 # Client
 cmd
-exam/client/
+/client/
 
 npm install
 npm run dev
