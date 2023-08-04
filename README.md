@@ -10,6 +10,8 @@ php artisan serve
 
 
 # Client
+cmd
+exam/client/
 
 npm install
 npm run dev
