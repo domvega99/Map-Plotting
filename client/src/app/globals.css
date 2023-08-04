@@ -1,0 +1,180 @@
+.wrapper {
+    /* background-color: blue; */
+    min-height: 90vh;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.section1 {
+    width: 40%;
+    padding: 10px;
+    
+}
+.section2 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.items {
+    padding: 10px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.item-button {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.btn1 {
+    font-size: 14px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+
+
+.btn2 {
+    font-size: 14px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.btn3 {
+    font-size: 14px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.line {
+    border-top-style: solid;
+    border-color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+}
+
+.leaflet-container {
+    height: 80vh;
+    width: 100vh;
+}
+
+
+
+.hideshow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5px;
+    padding-bottom: 50px;
+    background-color: white;
+    padding-top: 20px;
+    width: 100%;
+    
+}
+
+.inputSection1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputSection2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.inputStyle {
+    height: 25px;
+    margin-top: 5px;
+    outline-color: blue;
+    width: 100%;
+}
+
+.error {
+    font-size: 14px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.location-details {
+    margin-top: 10px;
+    width: 48%;
+}
+
+.location-item {
+    height: 30px;
+    width: 100%;
+    font-size: 18px;
+    color: gray;
+}
+
+.details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.link_style {
+    text-decoration: none;
+    color: white;
+}
+
+.btn4 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dateStyle {
+    height: 20px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.dateSection {
+    margin-bottom: 20px;
+}
+
+.filtersection {
+    margin-top: 10px;
+}
+
+.history-details {
+    margin-top: 20px;
+}
+
+.history-section {
+    margin-top: 20px;
+}
